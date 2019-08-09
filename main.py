@@ -8,7 +8,7 @@ Created on Wed Oct 31 16:02:07 2018
 import re
 import tweepy
 from nltk.classify import NaiveBayesClassifier
-import numpy as npnp
+import numpy as np
 import pandas as pd
 from tweepy import OAuthHandler
 from textblob import TextBlob
@@ -94,7 +94,7 @@ class TwitterClient(object):
         try:
             #Panggil API Twitter untuk stream data tweet
             fetched_tweets = self.api.search(q=query, count=count, \
-                                             until='2018-11-05')
+                                             """until='2018-11-05""")
             print("Number of tweets extracted: {}.\n".format(len \
                   (fetched_tweets)))
  
