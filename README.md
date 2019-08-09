@@ -1,6 +1,6 @@
 # twitter_sentiment_analysis
 Crawling tweets to analyse the sentiment based on query from Twitter API and classify them using Naive Bayes algorithm. 
-Tweepy libary is used to crawl tweet from Twitter API.
+Tweepy library is used to crawl tweet from Twitter API.
 
 Training is done in every query fetching, you may improve this by separating the training and the query method itself.
 
