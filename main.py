@@ -43,10 +43,10 @@ classifier = NaiveBayesClassifier.train(train_set)
 class TwitterClient(object): 
     def __init__(self):
         #Inisialisasi key dan token dari Twitter Dev Console
-        consumer_key = '9xErNzK5jJ1ODKY9JOBBgsCbm'
-        consumer_secret = '4NisQWtc15duAXlQ17C8tW8ZHot8zMfXL3eaYV6v68n6UsZHcL'
-        access_token = '187390279-NA5ot8jEZJIbwHBvDLvR7qyuuc6ic1YxjppoG876'
-        access_token_secret = 'iS3wwnDlpKU6rZhFwbm7kbNVhAHrrdT7ty8sQNNv57Ymd'
+        consumer_key = ''
+        consumer_secret = ''
+        access_token = ''
+        access_token_secret = ''
         try:
             #Membuat objek OAuthHandler
             self.auth = OAuthHandler(consumer_key, consumer_secret)
